@@ -10,7 +10,7 @@ ayrı ayrı run edilebilir.
 
 **NOT1:** **_createUserGorestService()_** methodunun başarılı bir şekilde çalışması için
 src --> data --> PostUserDataGorest.json dosyasında bulunan email alanı rastgele
-bir mail adresi ile değiştirilebilir.
+bir mail adresi ile değiştirilmelidir.
 
 **NOT2:** **_createSameEmailService()_** methodunun başarılı bir şekilde çalışması için
 https://gorest.co.in/public/v1/users servisinden dönen emaillerden birinin alınıp
