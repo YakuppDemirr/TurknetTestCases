@@ -11,7 +11,7 @@ public class BaseTest extends DriverManager {
     @BeforeTest
     public void startDriver(){
 
-        //chrome, firefox, edge veya internet explorer
+        //chrome, firefox, edge
         String browserName = "chrome";
         setBrowser(browserName);
     }
