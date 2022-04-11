@@ -8,11 +8,12 @@ public class BaseTest extends DriverManager {
 
     public static Logger log = Logger.getLogger("TurknetTestCases-UI");
 
+    @Parameters("browser")
     @BeforeTest
-    public void startDriver(){
+    public void startDriver(@Optional("browser") String browserName){
 
         //chrome, firefox, edge
-        String browserName = "chrome";
+        //String browserName = "chrome";
         setBrowser(browserName);
     }
 

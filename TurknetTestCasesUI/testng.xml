@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Turknet" verbose="2">
-    <test name="Turknet UI Study Case">
+<suite name="Turknet Parallel Cross Browser Testing" parallel="tests" thread-count = "1">
+    <test name="Turknet UI Study Case ChromeTest">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.turknet.TestCase1" />
+        </classes>
+    </test>
+    <test name="Turknet UI Study Case FirefoxTest">
+        <parameter name="browser" value="firefox" />
         <classes>
             <class name="com.turknet.TestCase1" />
         </classes>
