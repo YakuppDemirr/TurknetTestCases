@@ -12,3 +12,5 @@ Test sonucunda oluşan raporu görüntülemek için terminal kısmına
 Bu işlemler yapıldıktan sonra; 
 **docker-compose up** diyerek proje docker üzerinde çalıştırılabilir.
 Detayları görebilmek için; http://localhost:4444/ adresine gidilir.
+
+<img width="1434" alt="selenium-docker" src="https://user-images.githubusercontent.com/46319524/162702893-6d9f14e2-1c18-42c7-b3ed-d20008e201e7.png">
