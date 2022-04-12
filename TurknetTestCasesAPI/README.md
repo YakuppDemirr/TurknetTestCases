@@ -6,7 +6,7 @@ Proje çalıştırmak için;
 classına sağ tıklayıp run edilebilir yada class içerisine girip ilgili methodlar
 ayrı ayrı run edilebilir.
 
-**2.yol;** proje altında bulunan testng.xml dosyasına sağ tıklayıp run edilebilir.
+**2.yol;** proje altında bulunan **testng.xml** dosyasına sağ tıklayıp run edilebilir.
 
 **NOT1:** **_createUserGorestService()_** methodunun başarılı bir şekilde çalışması için
 src --> data --> PostUserDataGorest.json dosyasında bulunan email alanı rastgele
