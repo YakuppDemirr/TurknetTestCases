@@ -4,6 +4,8 @@ import com.turknet.core.DriverManager;
 import org.apache.log4j.Logger;
 import org.testng.annotations.*;
 
+import java.net.MalformedURLException;
+
 public class BaseTest extends DriverManager {
 
     public static Logger log = Logger.getLogger("TurknetTestCases-UI");
@@ -14,7 +16,11 @@ public class BaseTest extends DriverManager {
 
         //chrome, firefox, edge
         //String browserName = "chrome";
-        setBrowser(browserName);
+        try {
+            setBrowser(browserName);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
     }
 
     @AfterTest

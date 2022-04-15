@@ -9,7 +9,7 @@ services:
       - "4444:4444"
 
   chrome:
-    image: selenium/node-chrome:latest
+    image: selenium/node-chrome
     depends_on:
       - selenium-hub
     environment:
@@ -18,7 +18,7 @@ services:
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
 
   firefox:
-    image: selenium/node-firefox:latest
+    image: selenium/node-firefox
     depends_on:
       - selenium-hub
     environment:
